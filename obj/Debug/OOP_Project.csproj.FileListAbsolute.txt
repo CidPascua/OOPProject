@@ -1,0 +1,17 @@
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.csprojAssemblyReference.cache
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\App.g.cs
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project_MarkupCompile.cache
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\bin\Debug\OOP_Project.exe.config
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\bin\Debug\OOP_Project.exe
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\bin\Debug\OOP_Project.pdb
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\MainWindow.g.cs
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project_MarkupCompile.lref
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\MainWindow.baml
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.g.resources
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.Properties.Resources.resources
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.csproj.GenerateResource.cache
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.csproj.CoreCompileInputs.cache
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.exe
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\OOP_Project.pdb
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\Transaction.g.cs
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\Transaction.baml
