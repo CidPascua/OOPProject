@@ -24,34 +24,19 @@ namespace OOP_Project
         public MainWindow()
         {
             InitializeComponent();
-
         }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            transwin.Customer = new Person(this.txtFirstName.Text, this.txtLastName.Text, this.txtMiddleName.Text);
-            transwin.Customer.BirthDate = this.txtBirthDate.Text;
-            transwin.Customer.Address = this.txtAddress.Text;
-
-            transwin.Jewelry = new Product();
-            transwin.Jewelry.Name = this.cmbJewelry.Text;
-            transwin.Show();
-            //Transaction Transfer = new Transaction();
-            //Transfer.Show();
-            //this.Close();
+            AddTransactionWindow trans = new AddTransactionWindow();
+            trans.Show();
+            this.Close();
         }
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_Click1(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
-        {
-
+            AddTransactionWindow trans = new AddTransactionWindow();
+            trans.Show();
+            this.Close();
         }
     }
 }
