@@ -17,3 +17,7 @@ C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\Transaction.g.
 C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\Transaction.baml
 C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\AddTransactionWindow.g.cs
 C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\AddTransactionWindow.baml
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\AddCustomerWindow.g.cs
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\AddJewelry.g.cs
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\AddCustomerWindow.baml
+C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\obj\Debug\AddJewelry.baml

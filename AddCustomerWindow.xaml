@@ -44,7 +44,7 @@
         <TextBox Name="txtFirstName"
                Grid.Column="1"
                Grid.Row="0"
-               VerticalContentAlignment="Center"/>
+               VerticalContentAlignment="Center" TextChanged="txtFirstName_TextChanged"/>
         <TextBox Name="txtMiddleName"
                Grid.Column="1"
                Grid.Row="1"

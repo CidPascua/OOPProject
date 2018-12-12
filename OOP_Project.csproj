@@ -57,6 +57,9 @@
     <Compile Include="AddCustomerWindow.xaml.cs">
       <DependentUpon>AddCustomerWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddJewelry.xaml.cs">
+      <DependentUpon>AddJewelry.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Calculation.cs" />
     <Compile Include="AddTransactionWindow.xaml.cs">
       <DependentUpon>AddTransactionWindow.xaml</DependentUpon>
@@ -67,6 +70,10 @@
       <DependentUpon>Transaction.xaml</DependentUpon>
     </Compile>
     <Page Include="AddCustomerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddJewelry.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

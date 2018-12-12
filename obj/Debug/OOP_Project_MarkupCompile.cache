@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\jcfpascua\source\repos\OOP_Project\OOP_Project\App.xaml
-3490576094
+52005200697
 
-10555971867
+12601856574
 131569487696
-AddTransactionWindow.xaml;MainWindow.xaml;Transaction.xaml;
+AddCustomerWindow.xaml;AddJewelry.xaml;AddTransactionWindow.xaml;MainWindow.xaml;Transaction.xaml;
 
-True
+False
 

@@ -22,8 +22,8 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <Button Content="Add Transaction" HorizontalAlignment="Left" VerticalAlignment="Top" Width="103" RenderTransformOrigin="3.033,2.292" Margin="86,44,0,0" Grid.ColumnSpan="2" Click="Button_Click" IsCancel="True"/>
         <Button Content="Inventory" HorizontalAlignment="Left" VerticalAlignment="Top" Width="103" Grid.ColumnSpan="2" Margin="86,110,0,0" Click="Button_Click" IsCancel="True"/>
         <ListBox Name="lstTransactions" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="196" Grid.ColumnSpan="2" Margin="40,177,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="103" Margin="86,56,0,0" Grid.ColumnSpan="2" Click="Button_Click_1"/>
     </Grid>
 </Window>

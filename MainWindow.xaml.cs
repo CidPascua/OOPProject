@@ -25,17 +25,18 @@ namespace OOP_Project
         {
             InitializeComponent();
         }
-
+        
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            AddTransactionWindow trans = new AddTransactionWindow();
-            trans.Show();
+            AddJewelry addJewelry = new AddJewelry();
+            addJewelry.Show();
             this.Close();
         }
-        private void Button_Click1(object sender, RoutedEventArgs e)
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            AddTransactionWindow trans = new AddTransactionWindow();
-            trans.Show();
+            AddTransactionWindow addTransaction = new AddTransactionWindow();
+            addTransaction.Show();
             this.Close();
         }
     }

@@ -15,16 +15,16 @@ using System.Windows.Shapes;
 namespace OOP_Project
 {
     /// <summary>
-    /// Interaction logic for AddCustomerWindow.xaml
+    /// Interaction logic for AddJewelry.xaml
     /// </summary>
-    public partial class AddCustomerWindow : Window
+    public partial class AddJewelry : Window
     {
-        public AddCustomerWindow()
+        public AddJewelry()
         {
             InitializeComponent();
         }
 
-        private void txtFirstName_TextChanged(object sender, TextChangedEventArgs e)
+        private void cmbJewelry_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
