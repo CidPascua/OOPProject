@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOP_Project"
         mc:Ignorable="d"
-        Title="AddCustomerWindow" Height="330.123" Width="409.016" WindowStartupLocation="CenterScreen">
-    <Grid>
+        Title="AddCustomerWindow" Height="330.123" Width="419.507" WindowStartupLocation="CenterScreen">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="40"/>
@@ -61,7 +61,7 @@
                Grid.Column="1"
                Grid.Row="4"
                VerticalContentAlignment="Center"/>
-        <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="66,41,0,-18" Grid.Row="5" Height="18"/>
+        <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="66,41,0,-18" Grid.Row="5" Height="18" Click="Button_Click"/>
 
 
 

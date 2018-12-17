@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OOP_Project
 {
@@ -37,7 +33,7 @@ namespace OOP_Project
                 string[] names = name.Split(' ');
                 string formattedName = "";
                 for (int counter = 0; counter < names.Length; counter++)
-                formattedName = formattedName + char.ToUpper(names[counter][0] + names[counter].Substring(1) + " ";
+                formattedName = formattedName + char.ToUpper(names[counter][0]) + names[counter].Substring(1) + " ";
                 return formattedName.Remove(formattedName.Length - 1);
             }
         }
