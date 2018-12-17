@@ -17,19 +17,28 @@ namespace OOP_Project
 
             public Person(string firstName, string lastName, string middleName = "")
             {
-                FirstName = firstName;
-                MiddleName = middleName;
-                LastName = lastName;
+                FirstName = FormatName(firstName);
+                MiddleName = FormatName(middleName);
+                LastName = FormatName(lastName);
             }
 
             public string GetFullName()
             {
-                return FirstName + " " + MiddleName + " " + LastName;
+            return String.Format("{0} {1}. {2}", FirstName, MiddleName, LastName);
             }
 
             public int GetAge()
             {
                 return Calculations.CalculateAge(BirthDate);
+            }
+            private string FormatName(string name)
+            {
+                name = name.ToLower();
+                string[] names = name.Split(' ');
+                string formattedName = "";
+                for (int counter = 0; counter < names.Length; counter++)
+                formattedName = formattedName + char.ToUpper(names[counter][0] + names[counter].Substring(1) + " ";
+                return formattedName.Remove(formattedName.Length - 1);
             }
         }
 }
