@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOP_Project"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Visibility="Visible" WindowStyle="ThreeDBorderWindow">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Visibility="Visible" WindowStyle="ThreeDBorderWindow" Loaded="Window_Loaded">
     <Window.Effect>
         <DropShadowEffect Color="#FF0BCAD3"/>
     </Window.Effect>
@@ -24,14 +24,16 @@
         <Button Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Margin="359,345,0,0" Click="Button_Click" IsCancel="True"/>
         <Label Content="Due Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,149,0,0" RenderTransformOrigin="0.526,-0.397"/>
         <Label Content="Price:" HorizontalAlignment="Left" Margin="26,118,0,0" VerticalAlignment="Top" Width="55"/>
+        <TextBlock Name="txtPrice" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="100,123,0,0" Width="120" Height="21"/>
         <TextBox Name="txtLastName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="100,91,0,0"/>
         <StackPanel HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="120" Margin="100,152,0,0"/>
         <ComboBox Name ="cmbCustomer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="100,29,0,0"/>
         <Button Content="Add Customer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="87" Margin="243,31,0,0" Click="Button_Click_1"/>
-        <ComboBox Name="cmbJewelryType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="100,60,0,0"/>
+        <ComboBox Name="cmbJewelryType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="100,60,0,0" SelectionChanged="cmbJewelryType_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="127,123,0,0"/>
         <StackPanel HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="120" Margin="100,152,0,0">
             <DatePicker/>
         </StackPanel>
+        
     </Grid>
 </Window>

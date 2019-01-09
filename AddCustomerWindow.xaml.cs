@@ -21,6 +21,7 @@ namespace OOP_Project
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             AddTransactionWindow addTransactionWindow = new AddTransactionWindow();
+            addTransactionWindow.cmbCustomer.Items.Add(tbxFirstName);
             addTransactionWindow.Show();
             this.Close();
             

@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace OOP_Project
@@ -8,6 +9,7 @@ namespace OOP_Project
     /// </summary>
     public partial class AddTransactionWindow : Window
     {
+        public MainWindow Main;
         string[] JewelryType = { "Bracelet", "Rings", "Necklace", "Earrings" };
         //Transaction transwin = new Transaction();
        
@@ -43,7 +45,7 @@ namespace OOP_Project
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+           
         }
 
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
@@ -56,6 +58,32 @@ namespace OOP_Project
             AddCustomerWindow addCustomer = new AddCustomerWindow();
             addCustomer.Show();
             this.Close();
+        }
+
+        private void cmbJewelryType_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (cmbJewelryType.Text == "Necklace")
+            {
+                txtPrice.Text = Convert.ToString(5000);
+            }
+            else if (cmbJewelryType.Text == "Earrings")
+            {
+                txtPrice.Text = Convert.ToString(1500);
+            }
+            else if (cmbJewelryType.Text == "Ring")
+            {
+                txtPrice.Text = Convert.ToString(2000);
+            }
+            else if (cmbJewelryType.Text == "Bracelet")
+            {
+                txtPrice.Text = Convert.ToString(3000);
+            }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (string name in Main.names)
+                cmbCustomer.Items.Add(name);
         }
     }
 }

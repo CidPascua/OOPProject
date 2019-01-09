@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Collections.Generic;
 
 namespace OOP_Project
 {
@@ -7,6 +8,7 @@ namespace OOP_Project
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<string> names = new List<string>();
         Transaction transwin = new Transaction();
         public MainWindow()
         {
@@ -23,7 +25,9 @@ namespace OOP_Project
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             AddTransactionWindow addTransaction = new AddTransactionWindow();
+            addTransaction.Main = this;
             addTransaction.Show();
+            this.Hide();
             this.Close();
         }
     }
