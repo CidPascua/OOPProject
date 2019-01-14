@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using System.Collections.Generic;
 
+
+
 namespace OOP_Project
 {
     /// <summary>
@@ -8,7 +10,8 @@ namespace OOP_Project
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<string> names = new List<string>();
+        public DataStorage data = new DataStorage();
+        //public List<string> names = new List<string>();
         Transaction transwin = new Transaction();
         public MainWindow()
         {
@@ -25,10 +28,17 @@ namespace OOP_Project
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             AddTransactionWindow addTransaction = new AddTransactionWindow();
-            addTransaction.Main = this;
+            addTransaction.data = data;
+            //addTransaction.Main = this;
             addTransaction.Show();
             this.Hide();
             this.Close();
         }
+       
+    }
+    public class DataStorage
+    {
+        public List<Person> customers = new List<Person>();
+        public List<Product> jewelries = new List<Product>();
     }
 }
