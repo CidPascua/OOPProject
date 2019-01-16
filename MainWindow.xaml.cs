@@ -22,7 +22,7 @@ namespace OOP_Project
         {
             AddJewelry addJewelry = new AddJewelry();
             addJewelry.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -31,7 +31,6 @@ namespace OOP_Project
             addTransaction.data = data;
             //addTransaction.Main = this;
             addTransaction.Show();
-            this.Hide();
             this.Close();
         }
        

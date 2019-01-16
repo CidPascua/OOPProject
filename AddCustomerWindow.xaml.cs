@@ -23,7 +23,7 @@ namespace OOP_Project
         {
             Person customer = new Person(tbxFirstName.Text, tbxLastName.Text, tbxMiddleName.Text);
             //addTransactionWindow.cmbCustomer.Items.Add(tbxFirstName);
-            AddTransactionWindow addTransactionWindow = new AddTransactionWindow();
+            //AddTransactionWindow addTransactionWindow = new AddTransactionWindow();
             bool exist = false;
             foreach(Person cust in data.customers)
             {
@@ -37,10 +37,11 @@ namespace OOP_Project
                 data.customers.Add(customer);
             else
                 MessageBox.Show("Name already exists.");
-            data.customers.Add(customer);
-            addTransactionWindow.Show();
+            //data.customers.Add(customer);
+            //addTransactionWindow.Show();
             this.Close();
-            
+            //AddTransactionWindow addTransaction = new AddTransactionWindow();
+            //addTransaction.Show();
         }
         
     }

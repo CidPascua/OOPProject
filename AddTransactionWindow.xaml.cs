@@ -9,6 +9,7 @@ namespace OOP_Project
     /// </summary>
     public partial class AddTransactionWindow : Window
     {
+        public MainWindow main;
         public DataStorage data;
         //public MainWindow Main;
         string[] JewelryType = { "Bracelet", "Rings", "Necklace", "Earrings" };
@@ -26,7 +27,7 @@ namespace OOP_Project
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
-            this.Close();
+            this.Hide();
             //transwin.Customer = new Person(this.txtFirstName.Text, this.txtLastName.Text, this.txtMiddleName.Text);
             //transwin.Customer.BirthDate = this.txtBirthDate.Text;
             //transwin.Customer.Address = this.txtAddress.Text;
@@ -82,12 +83,12 @@ namespace OOP_Project
             }
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
+        //private void Window_Loaded(object sender, RoutedEventArgs e)
+        //{
 
-            //foreach (string name in Main.names)
-            //    cmbCustomer.Items.Add(name);
-        }
+        //    //foreach (string name in Main.names)
+        //    //    cmbCustomer.Items.Add(name);
+        //}
         //private void AddCustomer(object sender, RoutedEventArgs e)
         //{
         //    AddCustomerWindow customer_window = new AddCustomerWindow();
