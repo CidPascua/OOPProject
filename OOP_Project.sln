@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Project", "OOP_Project\OOP_Project.csproj", "{2BD61B45-9AE8-40FA-BFC5-691C4A7427D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Person", "Person", "{125F7D3C-1247-4258-9A77-B1262FB4DB16}"
+	ProjectSection(SolutionItems) = preProject
+		OOP_Project\Person.cs = OOP_Project\Person.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{31190986-E644-411A-B3D9-7660BF40D3EB}"
+	ProjectSection(SolutionItems) = preProject
+		OOP_Project\Product.cs = OOP_Project\Product.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculations", "Calculations", "{A0CD448E-B354-4C56-8F0C-6012A6F17685}"
+	ProjectSection(SolutionItems) = preProject
+		OOP_Project\Calculation.cs = OOP_Project\Calculation.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD61B45-9AE8-40FA-BFC5-691C4A7427D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD61B45-9AE8-40FA-BFC5-691C4A7427D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD61B45-9AE8-40FA-BFC5-691C4A7427D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD61B45-9AE8-40FA-BFC5-691C4A7427D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B95D7C3A-8FB9-4206-A8CC-305BA7F050D2}
+	EndGlobalSection
+EndGlobal
